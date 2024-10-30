@@ -1,0 +1,331 @@
+#wpfooter {
+    position: static;
+    margin-left: 0px !important;
+}
+.cerasis_hazardous a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+.cerasis_hazardous 
+{
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding-right: 44%;
+}
+.form-field input
+{
+    display: inline-block;
+    width: 0%;
+}
+#footer-left{
+    margin-left: 160px !important
+}
+.carrier_section_class table .carrier_carrier{
+    width: 70%;
+    font-size: 18px;
+    color: #0073aa;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 10px 20px;
+}
+.carrier_section_class table .carrier_logo{
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    color: #0073aa;
+    font-weight: normal;
+    border-bottom: 1px solid #e1e1e1;
+}
+.carrier_section_class table .carrier_include{
+    width: 15%;;
+    padding-left: 10px; 
+    text-align: center;
+    padding-right: 10px !important;
+    border-bottom: 1px solid #e1e1e1;
+}
+.carrier_section_class{
+    margin: 10px 0 0 2px;
+}
+
+.even_odd_class{
+    background-color: #fff !important;
+}
+
+.carrier_section_class table .carrier_Name_td{
+    text-align: left;
+    padding-left: 10px !important;
+}
+
+.carrier_section_class table td {
+    text-align: center; 
+}
+/*.carrier_section_class table tr{
+    background: #f9f9f9;
+}*/
+.carrier_section_class .form-table tr .titledesc{
+    width: 800px;    
+    padding: 6px;
+}
+.carrier_section_class table {
+    border-spacing: 0;
+}
+.carrier_section_class .form-table td {
+    width: 200px;
+    padding: 0px;
+}
+.cerasis_connection_section_class a{
+    text-decoration: unset;
+}
+.cerasis_connection_section_class .form-table tr .titledesc{
+    width: 300px;    
+}
+
+.cerasis_connection_section_class .button-primary{
+    width: 187px !important;
+    height: 37px;
+    margin-left: 24px;
+}
+.ltl_setting_section .button-primary, .user_guide p.submit{
+    display: none;
+}
+.cerasis_connection_section_class .connection_save_button{
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    background: #298cba none repeat scroll 0 0 !important;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.cerasis_connection_section_class input {
+    width: 350px;
+}
+.cerasis_connection_section_class label {
+    cursor: default;
+}
+
+.class_success_message{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #46b450 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 9.5px 12px;
+}
+.class_error_message{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #dc3232 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 9.5px 12px;
+}
+
+
+
+label[for=wc_settings_cerasis_delivery_estimate]{
+    font-size: 13px;
+    font-style: italic;
+}
+
+label[for=wc_settings_cerasis_allow_for_own_arrangment]{
+    font-size: 13px;
+    font-style: italic;
+}
+label[for="wc_settings_cerasis_shipper_id"]:after, label[for="wc_settings_cerasis_username"]:after, label[for="wc_settings_cerasis_password"]:after, label[for="wc_settings_cerasis_authentication_key"]:after, label[for="wc_settings_cerasis_licence_key"]:after{
+    content: " *";
+    color: red;
+}
+label[for="ltl_origin_zip"]:after, label[for="ltl_origin_city"]:after, label[for="ltl_origin_state"]:after, label[for="ltl_origin_country"]:after {
+    content: " *";
+    color: red;
+}
+
+.handeling_fee_err{
+    color: #d54e21;
+    font-size: 13px;
+    display: block;
+}
+.ltl_test_connection{
+    font-size: 15px !important;
+    width: 167px !important;
+    text-align: center;
+}
+.ltl_test_connection:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+.quote_section_class_ltl .description{
+    font-style: normal !important;
+}
+.quote_section_class_ltl input[type="text"] {
+    width: 250px;
+    border-radius: 4px;
+}
+.quote_section_class_ltl input[type="checkbox"], .carrier_check, .include_all{
+    cursor: default;
+    height: 20px !important;
+    width: 20px !important;
+}
+.quote_section_class_ltl input[type="checkbox"]:checked::before{
+    padding-top: 2px;
+    width: 24px;
+}
+.carrier_check:checked::before, .include_all:checked::before {
+    padding-top: 2px;
+    width: 25px !important;
+}
+.quote_section_class_ltl .form-table tr .titledesc{
+    width: 300px;    
+}
+.quote_section_class_ltl label{
+    cursor: default;
+}
+.quote_section_class_ltl .button-primary{ 
+    width: 120px !important;
+    margin-left: 336px;
+    height: 36px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.carrier_section_class .button-primary{  
+    width: 120px !important;
+    height: 36px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.ltl_test_connection {
+    font-size: 13px !important;
+    text-align: center;
+    width: 167px !important;
+}
+.ltl_test_connection:hover{
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+.cerasis_connection_section_class p.submit{
+    text-align: left;
+    width: calc(100% - 310px);
+    float: right;
+}
+.cerasis_connection_section_class p.submit > * {
+    line-height: 2.9 !important;
+}
+
+.woocommerce_variable_attributes div.data select{
+    width: 100% !important;
+}
+.woocommerce_variable_attributes div.data .checkbox{
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.form-row select{
+    height: 35px !important;
+}
+.button-primary {
+    text-transform: capitalize !important;
+}
+.warning-msg-ltl
+{
+    margin             : 5px 0 15px !important;
+    border-left-color  : #ffb900 !important;
+    background         : #fff;
+    border-left        : 4px solid #fff;
+    -webkit-box-shadow : 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow         : 0 1px 1px 0 rgba(0,0,0,.1);
+    padding            : 3px 12px;
+}
+
+.warning-msg-ltl p, .test_conn_msg p, .test_err_msg p, .wrng_credential p, .not_allowed p{
+    margin : .5em 0;
+}
+
+.table-bordered, .table-bordered th{
+    border: 1px solid #eceeef;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    background-color: transparent;
+    box-shadow: 2px 2px 6px 0px #666;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+    font-size: 18px;
+    padding: 25px 0;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: end;
+}
+.text-justify{
+    text-align: justify;
+}
+#wpfooter{    position: static;    margin-left: 0px !important;}
+#footer-thankyou{    margin-left: 160px !important}
+
+.refresh-carriers{
+    float: right;
+    margin-bottom: 14px !important;
+}
+
+.refresh-carriers-loader{
+    margin: 8px 12px 0px 0px;
+}
+
+/* font size quote setting page */
+.en_woo_addons_liftgate_with_auto_residential_style th,
+.wc_settings_cerasis_residential_delivery th,
+.avaibility_lift_gate th,
+.wc_settings_cerasis_lift_gate_delivery th,
+.cerasis_freights_liftgate_delivery_as_option th,
+.avaibility_auto_residential th{
+    padding: 0px 0 10px 15px;
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+.en_woo_addons_liftgate_with_auto_residential_style td,
+.wc_settings_cerasis_residential_delivery td,
+.avaibility_lift_gate td,
+.wc_settings_cerasis_lift_gate_delivery td,
+.cerasis_freights_liftgate_delivery_as_option td,
+.avaibility_auto_residential td{
+    padding: 0px 0 10px 15px;
+}
